@@ -1,0 +1,26 @@
+{
+  "name": "devprofilegenerator",
+  "version": "1.0.0",
+  "description": "A simple app who dynamyclly generate an dev profile based on user input and they GitHub profile data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaeghetan/DevProfileGenerator.git"
+  },
+  "author": "Nicolae Ghetan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaeghetan/DevProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/nicolaeghetan/DevProfileGenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.3.1",
+    "open": "^7.0.4"
+  }
+}
